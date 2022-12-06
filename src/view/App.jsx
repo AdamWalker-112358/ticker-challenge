@@ -1,6 +1,7 @@
 import React from "react";
 import Ticker from "./Ticker";
 import styled from "styled-components";
+import Open from './OpenAI'
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
         {"Ticker challenge "}<span role="img" aria-label="confetti">🎉</span>
       </h1>
       <Ticker message="HELLO TICKER" />
+      <Open></Open>
     </Container>
   );
 }
